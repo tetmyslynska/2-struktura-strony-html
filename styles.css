@@ -1,0 +1,64 @@
+.main-div {
+  width: 600px;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 20px;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 10px 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  background-color: blue;
+}
+
+#header {
+  background-color: rgb(245, 186, 118);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  padding-right: 160px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+section {
+  background-color: rgb(91, 161, 102);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+section > p {
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-paragraf {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(201, 199, 199);
+  padding: 20px;
+  text-align: center;
+}
